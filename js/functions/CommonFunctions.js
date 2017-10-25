@@ -5,3 +5,7 @@
 function trim(str) {
 	return (str || "").replace(/^\s+|\s+$/g, "");
 }
+
+function replaceWithOneWhitespace(str) {
+	return (str || "").replace(/\s+/g, " ");
+}
